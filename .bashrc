@@ -126,3 +126,11 @@ fi
 if grep -qi microsoft /proc/version 2>/dev/null; then
   export DISPLAY=172.21.208.1:0
 fi
+export PATH="$HOME/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+alias tufts='sshfs hlynch02@homework.cs.tufts.edu:/h/hlynch02 ~/tufts && cd ~/tufts'
+alias tufts-unmount='fusermount -u ~/tufts'
