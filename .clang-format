@@ -1,0 +1,11 @@
+BasedOnStyle: Google
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 80
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpaceAfterCStyleCast: false
+BreakBeforeBraces: Attach
+SpacesAroundOperators: true
+AlignConsecutiveAssignments: false
+SortIncludes: false
