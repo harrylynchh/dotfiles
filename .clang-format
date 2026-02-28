@@ -1,11 +1,8 @@
-BasedOnStyle: Google
+BasedOnStyle: LLVM
 IndentWidth: 4
 UseTab: Never
 ColumnLimit: 80
+BreakBeforeBraces: Attach
 SpaceBeforeParens: ControlStatements
 SpacesInParentheses: false
-SpaceAfterCStyleCast: false
-BreakBeforeBraces: Attach
-SpacesAroundOperators: true
-AlignConsecutiveAssignments: false
 SortIncludes: false

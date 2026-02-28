@@ -5,8 +5,6 @@ return {
       python = { "flake8" },
       javascript = { "eslint_d" },
       typescript = { "eslint_d" },
-      cpp = { "cpplint" },
-      c = { "cpplint" },
     },
   },
 }
